@@ -41,7 +41,7 @@ export async function middleware(request: NextRequest) {
 
     if (user && isLoginPage) {
         // 로그인 사용자가 로그인 페이지 접근 시 대시보드 메인으로
-        return NextResponse.redirect(new URL('/products', request.url))
+        return NextResponse.redirect(new URL('/', request.url))
     }
 
     return supabaseResponse

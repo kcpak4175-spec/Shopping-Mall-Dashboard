@@ -25,7 +25,7 @@ export function StoreInfoForm({ data, onChange }: StoreInfoFormProps) {
 
     return (
         <div className="bg-white p-6 rounded-lg shadow-sm border border-gray-200">
-            <h2 className="text-lg font-semibold mb-4">스토어 기본 정보</h2>
+            <h2 className="text-lg font-semibold text-gray-900 mb-4">스토어 기본 정보</h2>
 
             <div className="space-y-4">
                 <div>

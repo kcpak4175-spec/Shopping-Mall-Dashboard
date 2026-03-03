@@ -32,5 +32,5 @@ export async function loginAction(prevState: any, formData: FormData) {
     }
 
     // 성공 시 리다이렉트
-    redirect('/products')
+    redirect('/')
 }

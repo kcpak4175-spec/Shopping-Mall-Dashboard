@@ -9,8 +9,8 @@ interface DailySalesChartProps {
 
 export function DailySalesChart({ data }: DailySalesChartProps) {
     return (
-        <div className="bg-white dark:bg-gray-800 p-6 rounded-xl border border-gray-100 dark:border-gray-700 shadow-sm w-full mb-6 relative">
-            <h3 className="text-lg font-bold text-gray-900 dark:text-gray-100 mb-6">일별 매출 추이</h3>
+        <div className="bg-white p-6 rounded-xl border border-gray-100 shadow-sm w-full mb-6 relative">
+            <h3 className="text-lg font-bold text-gray-900 mb-6">일별 매출 추이</h3>
             <div className="h-80 w-full">
                 <ResponsiveContainer width="100%" height="100%">
                     <LineChart

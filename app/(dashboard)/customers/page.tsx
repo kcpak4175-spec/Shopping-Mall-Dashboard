@@ -28,7 +28,7 @@ export default async function CustomersPage({
 
     return (
         <div className="p-6">
-            <h1 className="text-2xl font-bold mb-6">고객 관리</h1>
+            <h1 className="text-2xl font-bold text-gray-900 mb-6">고객 관리</h1>
             <CustomerSearchSort />
             <CustomerTable customers={customers} />
             <CustomerFooter stats={stats} currentPage={page} totalPages={totalPages} />

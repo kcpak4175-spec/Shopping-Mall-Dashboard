@@ -36,15 +36,15 @@ export function KpiCards({ kpi }: KpiCardsProps) {
     return (
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-6">
             {cards.map((card, index) => (
-                <div key={index} className="bg-white dark:bg-gray-800 p-6 rounded-xl border border-gray-100 dark:border-gray-700 shadow-sm transition-all hover:shadow-md">
+                <div key={index} className="bg-white p-6 rounded-xl border border-gray-100 shadow-sm transition-all hover:shadow-md">
                     <div className="flex justify-between items-start mb-4">
-                        <h3 className="text-sm font-medium text-gray-500 dark:text-gray-400">{card.title}</h3>
-                        <div className="p-2 bg-gray-50 dark:bg-gray-900 rounded-lg">
+                        <h3 className="text-sm font-medium text-gray-500">{card.title}</h3>
+                        <div className="p-2 bg-gray-50 rounded-lg">
                             {card.icon}
                         </div>
                     </div>
                     <div className="flex flex-col gap-1">
-                        <span className="text-2xl font-bold text-gray-900 dark:text-gray-100">{card.value}</span>
+                        <span className="text-2xl font-bold text-gray-900">{card.value}</span>
                         <div className={`flex items-center text-sm font-medium ${card.change >= 0 ? 'text-emerald-500' : 'text-red-500'}`}>
                             {card.change >= 0 ? <ArrowUpRight className="w-4 h-4 mr-1" /> : <ArrowDownRight className="w-4 h-4 mr-1" />}
                             <span>{card.change > 0 ? '+' : ''}{card.change}%</span>

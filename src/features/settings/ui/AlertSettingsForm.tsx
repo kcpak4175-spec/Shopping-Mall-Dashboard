@@ -20,7 +20,7 @@ export function AlertSettingsForm({ data, onChange }: AlertSettingsFormProps) {
 
     return (
         <div className="bg-white p-6 rounded-lg shadow-sm border border-gray-200 mt-6">
-            <h2 className="text-lg font-semibold mb-4">재고 알림 설정</h2>
+            <h2 className="text-lg font-semibold text-gray-900 mb-4">재고 알림 설정</h2>
 
             <div className="space-y-4">
                 <div>
