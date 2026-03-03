@@ -1,0 +1,38 @@
+FAIL src/features/settings/domain/NotificationSettings.test.ts
+  ● Test suite failed to run
+
+    Cannot find module '../NotificationSettings' from 'src/features/settings/domain/NotificationSettings.test.ts'
+
+    [0m [90m 3 |[39m describe([32m'NotificationSettings Domain Entity'[39m[33m,[39m () [33m=>[39m {
+     [90m 4 |[39m     it([32m'유효한 데이터로 NotificationSettings 객체를 생성할 수 있다'[39m[33m,[39m () [33m=>[39m {
+    [31m[1m>[22m[39m[90m 5 |[39m         [36mconst[39m validData [33m=[39m {
+     [90m   |[39m                               [31m[1m^[22m[39m
+     [90m 6 |[39m             lowStockThreshold[33m:[39m [35m10[39m[33m,[39m
+     [90m 7 |[39m             isEmailEnabled[33m:[39m [36mtrue[39m[33m,[39m
+     [90m 8 |[39m             isSlackEnabled[33m:[39m [36mfalse[39m[33m,[39m[0m
+
+      at Resolver._throwModNotFoundError (node_modules/jest-resolve/build/index.js:863:11)
+      at Object.<anonymous> (src/features/settings/domain/NotificationSettings.test.ts:5:31)
+
+FAIL src/features/settings/domain/StoreSettings.test.ts
+  ● Test suite failed to run
+
+    Cannot find module '../StoreSettings' from 'src/features/settings/domain/StoreSettings.test.ts'
+
+    [0m [90m 3 |[39m describe([32m'StoreSettings Domain Entity'[39m[33m,[39m () [33m=>[39m {
+     [90m 4 |[39m     it([32m'유효한 데이터로 StoreSettings 객체를 생성할 수 있다'[39m[33m,[39m () [33m=>[39m {
+    [31m[1m>[22m[39m[90m 5 |[39m         [36mconst[39m validData [33m=[39m {
+     [90m   |[39m                        [31m[1m^[22m[39m
+     [90m 6 |[39m             storeName[33m:[39m [32m'내 멋진 쇼핑몰'[39m[33m,[39m
+     [90m 7 |[39m             logoUrl[33m:[39m [32m'https://example.com/logo.png'[39m[33m,[39m
+     [90m 8 |[39m             currency[33m:[39m [32m'KRW'[39m [36mas[39m [36mconst[39m[33m,[39m[0m
+
+      at Resolver._throwModNotFoundError (node_modules/jest-resolve/build/index.js:863:11)
+      at Object.<anonymous> (src/features/settings/domain/StoreSettings.test.ts:5:24)
+
+Test Suites: 2 failed, 2 total
+Tests:       0 total
+Snapshots:   0 total
+Time:        0.816 s
+Ran all test suites matching src/features/settings.
+{"numFailedTestSuites":2,"numFailedTests":0,"numPassedTestSuites":0,"numPassedTests":0,"numPendingTestSuites":0,"numPendingTests":0,"numRuntimeErrorTestSuites":2,"numTodoTests":0,"numTotalTestSuites":2,"numTotalTests":0,"openHandles":[],"snapshot":{"added":0,"didUpdate":false,"failure":false,"filesAdded":0,"filesRemoved":0,"filesRemovedList":[],"filesUnmatched":0,"filesUpdated":0,"matched":0,"total":0,"unchecked":0,"uncheckedKeysByFile":[],"unmatched":0,"updated":0},"startTime":1772390326534,"success":false,"testResults":[{"assertionResults":[],"coverage":{},"endTime":1772390327351,"message":"  ● Test suite failed to run\n\n    Cannot find module '../NotificationSettings' from 'src/features/settings/domain/NotificationSettings.test.ts'\n\n    \u001b[0m \u001b[90m 3 |\u001b[39m describe(\u001b[32m'NotificationSettings Domain Entity'\u001b[39m\u001b[33m,\u001b[39m () \u001b[33m=>\u001b[39m {\n     \u001b[90m 4 |\u001b[39m     it(\u001b[32m'유효한 데이터로 NotificationSettings 객체를 생성할 수 있다'\u001b[39m\u001b[33m,\u001b[39m () \u001b[33m=>\u001b[39m {\n    \u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 5 |\u001b[39m         \u001b[36mconst\u001b[39m validData \u001b[33m=\u001b[39m {\n     \u001b[90m   |\u001b[39m                               \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n     \u001b[90m 6 |\u001b[39m             lowStockThreshold\u001b[33m:\u001b[39m \u001b[35m10\u001b[39m\u001b[33m,\u001b[39m\n     \u001b[90m 7 |\u001b[39m             isEmailEnabled\u001b[33m:\u001b[39m \u001b[36mtrue\u001b[39m\u001b[33m,\u001b[39m\n     \u001b[90m 8 |\u001b[39m             isSlackEnabled\u001b[33m:\u001b[39m \u001b[36mfalse\u001b[39m\u001b[33m,\u001b[39m\u001b[0m\n\n      at Resolver._throwModNotFoundError (node_modules/jest-resolve/build/index.js:863:11)\n      at Object.<anonymous> (src/features/settings/domain/NotificationSettings.test.ts:5:31)\n","name":"C:\\Users\\asia\\Desktop\\mall-dashboard\\src\\features\\settings\\domain\\NotificationSettings.test.ts","startTime":1772390327351,"status":"failed","summary":""},{"assertionResults":[],"coverage":{},"endTime":1772390327351,"message":"  ● Test suite failed to run\n\n    Cannot find module '../StoreSettings' from 'src/features/settings/domain/StoreSettings.test.ts'\n\n    \u001b[0m \u001b[90m 3 |\u001b[39m describe(\u001b[32m'StoreSettings Domain Entity'\u001b[39m\u001b[33m,\u001b[39m () \u001b[33m=>\u001b[39m {\n     \u001b[90m 4 |\u001b[39m     it(\u001b[32m'유효한 데이터로 StoreSettings 객체를 생성할 수 있다'\u001b[39m\u001b[33m,\u001b[39m () \u001b[33m=>\u001b[39m {\n    \u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 5 |\u001b[39m         \u001b[36mconst\u001b[39m validData \u001b[33m=\u001b[39m {\n     \u001b[90m   |\u001b[39m                        \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n     \u001b[90m 6 |\u001b[39m             storeName\u001b[33m:\u001b[39m \u001b[32m'내 멋진 쇼핑몰'\u001b[39m\u001b[33m,\u001b[39m\n     \u001b[90m 7 |\u001b[39m             logoUrl\u001b[33m:\u001b[39m \u001b[32m'https://example.com/logo.png'\u001b[39m\u001b[33m,\u001b[39m\n     \u001b[90m 8 |\u001b[39m             currency\u001b[33m:\u001b[39m \u001b[32m'KRW'\u001b[39m \u001b[36mas\u001b[39m \u001b[36mconst\u001b[39m\u001b[33m,\u001b[39m\u001b[0m\n\n      at Resolver._throwModNotFoundError (node_modules/jest-resolve/build/index.js:863:11)\n      at Object.<anonymous> (src/features/settings/domain/StoreSettings.test.ts:5:24)\n","name":"C:\\Users\\asia\\Desktop\\mall-dashboard\\src\\features\\settings\\domain\\StoreSettings.test.ts","startTime":1772390327351,"status":"failed","summary":""}],"wasInterrupted":false}

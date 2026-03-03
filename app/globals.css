@@ -24,3 +24,18 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+ 
+/* Global UI Polish */
+input, textarea, select {
+  color: #111827; /* text-gray-900 */
+}
+ 
+button, a.button {
+  font-weight: 700; /* Make button text bold for better visibility */
+}
+ 
+@layer base {
+  input:focus, textarea:focus, select:focus {
+    color: #000000; /* Even darker when focused */
+  }
+}

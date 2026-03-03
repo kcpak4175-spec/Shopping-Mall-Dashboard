@@ -1,0 +1,28 @@
+FAIL ./middleware.test.ts
+  ● Test suite failed to run
+
+    ReferenceError: TextDecoder is not defined
+
+    [0m [90m 2 |[39m
+     [90m 3 |[39m [36mif[39m ([36mtypeof[39m [33mRequest[39m [33m===[39m [32m'undefined'[39m) {
+    [31m[1m>[22m[39m[90m 4 |[39m     [36mconst[39m { [33mRequest[39m[33m,[39m [33mResponse[39m[33m,[39m [33mHeaders[39m[33m,[39m fetch[33m,[39m [33mFormData[39m } [33m=[39m require([32m'undici'[39m)
+     [90m   |[39m                                                             [31m[1m^[22m[39m
+     [90m 5 |[39m     global[33m.[39m[33mRequest[39m [33m=[39m [33mRequest[39m
+     [90m 6 |[39m     global[33m.[39m[33mResponse[39m [33m=[39m [33mResponse[39m
+     [90m 7 |[39m     global[33m.[39m[33mHeaders[39m [33m=[39m [33mHeaders[39m[0m
+
+      at Object.<anonymous> (node_modules/undici/lib/encoding/index.js:3:21)
+      at Object.<anonymous> (node_modules/undici/lib/web/infra/index.js:4:29)
+      at Object.<anonymous> (node_modules/undici/lib/web/fetch/data-url.js:4:147)
+      at Object.<anonymous> (node_modules/undici/lib/web/fetch/util.js:7:54)
+      at Object.<anonymous> (node_modules/undici/lib/web/fetch/headers.js:11:5)
+      at Object.<anonymous> (node_modules/undici/lib/web/fetch/response.js:3:90)
+      at Object.<anonymous> (node_modules/undici/lib/web/fetch/index.js:12:5)
+      at Object.<anonymous> (node_modules/undici/index.js:122:19)
+      at Object.require (jest.setup.ts:4:61)
+
+Test Suites: 1 failed, 1 total
+Tests:       0 total
+Snapshots:   0 total
+Time:        0.442 s
+Ran all test suites matching middleware.test.ts.

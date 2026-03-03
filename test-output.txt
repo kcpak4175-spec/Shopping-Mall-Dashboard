@@ -1,0 +1,1292 @@
+﻿node.exe : FAIL src/features/products/ui/ProductCreateForm.test.tsx (6.599 s)
+위치 줄:1 문자:1
++ & "C:\Program Files\nodejs/node.exe" "C:\Program Files\nodejs/node_mo ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (FAIL src/featur...t.tsx (6.599 s):String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  ProductCreateForm
+    ?????붿냼?ㅼ씠 ?щ컮瑜닿쾶 ?뚮뜑留곷맂??(69 ms)
+    ???좏슚???곗씠?곕줈 ?쇱쓣 ?쒖텧?섎㈃ onSubmit???몄텧?쒕떎 (630 ms)
+    ??AI ?ㅻ챸 ?앹꽦 ???곹뭹紐낆씠 ?놁쑝硫?寃쎄퀬?쒕떎 (63 ms)
+    ??AI ?ㅻ챸 ?앹꽦 ?깃났 ???띿뒪???곸뿭??梨꾩썙吏꾨떎 (199 ms)
+    ??寃利??먮윭 ?쒖떆
+      횞 ?곹뭹紐낆씠 鍮꾩뼱?덉쓣 ???먮윭 硫붿떆吏媛 ?쒖떆?쒕떎 (1088 ms)
+      횞 媛寃⑹씠 ?뚯닔?????먮윭 硫붿떆吏媛 ?쒖떆?쒕떎 (1332 ms)
+      횞 ?ш퀬媛 ?뚯닔?????먮윭 硫붿떆吏媛 ?쒖떆?쒕떎 (1317 ms)
+      ???좏슚???곗씠???쒖텧 ???먮윭 硫붿떆吏媛 ?쒖떆?섏? ?딅뒗??(381 ms)
+      횞 ?щ윭 ?꾨뱶???숈떆???먮윭 硫붿떆吏媛 ?쒖떆?쒕떎 (1188 ms)
+
+  ??ProductCreateForm ????寃利??먮윭 ?쒖떆 ???곹뭹紐낆씠 鍮꾩뼱?덉쓣 ???먮윭 硫붿떆吏媛 ?쒖떆?쒕떎
+
+    Unable to find an element with the text: ?곹뭹紐낆쓣 ?낅젰?댁＜?몄슂.. This could be because the text is broken up by multiple elements. In this case, you can provide a function for your t
+ext matcher to make your matcher more flexible.
+
+    Ignored nodes: comments, script, style
+    [36m<body>[39m
+      [36m<div>[39m
+        [36m<form[39m
+          [33mclass[39m=[32m"max-w-4xl mx-auto pb-12"[39m
+        [36m>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"flex justify-between items-center mb-6"[39m
+          [36m>[39m
+            [36m<h1[39m
+              [33mclass[39m=[32m"text-2xl font-bold text-gray-900"[39m
+            [36m>[39m
+              [0m?곹뭹 ?깅줉[0m
+            [36m</h1>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"flex gap-3"[39m
+            [36m>[39m
+              [36m<button[39m
+                [33mclass[39m=[32m"px-4 py-2 border border-gray-300 rounded-lg text-gray-700 bg-white hover:bg-gray-50 transition-colors font-medium"[39m
+                [33mtype[39m=[32m"button"[39m
+              [36m>[39m
+                [0m痍⑥냼[0m
+              [36m</button>[39m
+              [36m<button[39m
+                [33mclass[39m=[32m"px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors font-medium disabled:bg-blue-400 disabled:cursor-not-allowed"[
+39m
+                [33mtype[39m=[32m"submit"[39m
+              [36m>[39m
+                [0m???[0m
+              [36m</button>[39m
+            [36m</div>[39m
+          [36m</div>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"bg-white p-6 rounded-xl shadow-sm border border-gray-100"[39m
+          [36m>[39m
+            [36m<h2[39m
+              [33mclass[39m=[32m"text-lg font-bold text-gray-800 mb-4"[39m
+            [36m>[39m
+              [0m湲곕낯 ?뺣낫[0m
+            [36m</h2>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"space-y-5"[39m
+            [36m>[39m
+              [36m<div>[39m
+                [36m<label[39m
+                  [33mclass[39m=[32m"block text-sm font-medium text-gray-700 mb-1"[39m
+                  [33mfor[39m=[32m"name"[39m
+                [36m>[39m
+                  [0m?곹뭹紐?[0m
+                  [36m<span[39m
+                    [33mclass[39m=[32m"text-red-500"[39m
+                  [36m>[39m
+                    [0m*[0m
+                  [36m</span>[39m
+                [36m</label>[39m
+                [36m<input[39m
+                  [33mclass[39m=[32m"w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition-shadow border-red-500"[39m
+                  [33mid[39m=[32m"name"[39m
+                  [33mname[39m=[32m"name"[39m
+                  [33mplaceholder[39m=[32m"?곹뭹紐낆쓣 ?낅젰?섏꽭??[39m
+                  [33mtype[39m=[32m"text"[39m
+                  [33mvalue[39m=[32m""[39m
+                [36m/>[39m
+                [36m<p[39m
+                  [33mclass[39m=[32m"mt-1 text-sm text-red-600"[39m
+                [36m>[39m
+                  [0m[object Object][0m
+                [36m</p>[39m
+              [36m</div>[39m
+              [36m<div>[39m
+                [36m<label[39m
+                  [33mclass[39m=[32m"block text-sm font-medium text-gray-700 mb-1"[39m
+                  [33mfor[39m=[32m"description"[39m
+                [36m>[39m
+                  [0m?곹뭹 ?ㅻ챸[0m
+                [36m</label>[39m
+                [36m<textarea[39m
+                  [33mclass[39m=[32m"w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition-shadow resize-y border-gray
+-300"[39m
+                  [33mid[39m=[32m"description"[39m
+                  [33mname[39m=[32m"description"[39m
+                  [33mplaceholder[39m=[32m"?곹뭹??????곸꽭 ?ㅻ챸???낅젰?섏꽭??[39m
+                  [33mrows[39m=[32m"4"[39m
+                [36m/>[39m
+              [36m</div>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"grid grid-cols-1 md:grid-cols-3 gap-5"[39m
+              [36m>[39m
+                [36m<div>[39m
+                  [36m<label[39m
+                    [33mclass[39m=[32m"block text-sm font-medium text-gray-700 mb-1"[39m
+                    [33mfor[39m=[32m"category"[39m
+                  [36m>[39m
+                    [0m移댄뀒怨좊━[0m
+                  [36m</label>[39m
+                  [36m<select[39m
+                    [33mclass[39m=[32m"w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none bg-white"[39m
+                    [33mid[39m=[32m"category"[39m
+                    [33mname[39m=[32m"category"[39m
+                  [36m>[39m
+                    [36m<option[39m
+                      [33mvalue[39m=[32m"?꾩껜"[39m
+                    [36m>[39m
+                      [0m?꾩껜[0m
+                    [36m</option>[39m
+                    [36m<option[39m
+                      [33mvalue[39m=[32m"?꾩옄?쒗뭹"[39m
+                    [36m>[39m
+                      [0m?꾩옄?쒗뭹[0m
+                    [36m</option>[39m
+                    [36m<option[39m
+                      [33mvalue[39m=[32m"?섎쪟"[39m
+                    [36m>[39m
+                      [0m?섎쪟[0m
+                    [36m</option>[39m
+                    [36m<option[39m
+                      [33mvalue[39m=[32m"?앺뭹"[39m
+                    [36m>[39m
+                      [0m?앺뭹[0m
+                    [36m</option>[39m
+                  [36m</select>[39m
+                [36m</div>[39m
+                [36m<div>[39m
+                  [36m<label[39m
+                    [33mclass[39m=[32m"block text-sm font-medium text-gray-700 mb-1"[39m
+                    [33mfor[39m=[32m"price"[39m
+                  [36m>[39m
+                    [0m媛寃?(??[0m
+                  [36m</label>[39m
+                  [36m<input[39m
+                    [33mclass[39m=[32m"w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none border-gray-300"[39m
+                    [33mid[39m=[32m"price"[39m
+                    [33mname[39m=[32m"price"[39m
+                    [33mplaceholder[39m=[32m"0"[39m
+                    [33mtype[39m=[32m"number"[39m
+                    [33mvalue[39m=[32m"0"[39m
+                  [36m/>[39m
+                [36m</div>[39m
+                [36m<div>[39m
+                  [36m<label[39m
+                    [33mclass[39m=[32m"block text-sm font-medium text-gray-700 mb-1"[39m
+                    [33mfor[39m=[32m"stock"[39m
+                  [36m>[39m
+                    [0m?ш퀬 ?섎웾[0m
+                  [36m</label>[39m
+                  [36m<input[39m
+                    [33mclass[39m=[32m"w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none border-gray-300"[39m
+                    [33mid[39m=[32m"stock"[39m
+                    [33mname[39m=[32m"stock"[39m
+                    [33mplaceholder[39m=[32m"0"[39m
+                    [33mtype[39m=[32m"number"[39m
+                    [33mvalue[39m=[32m"0"[39m
+                  [36m/>[39m
+                [36m</div>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+          [36m</div>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"bg-white p-6 rounded-xl shadow-sm border border-gray-100 mt-6"[39m
+          [36m>[39m
+            [36m<h2[39m
+              [33mclass[39m=[32m"text-lg font-bold text-gray-800 mb-4"[39m
+            [36m>[39m
+              [0m?곹뭹 ?대?吏 (理쒕? 3媛?[0m
+            [36m</h2>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"grid grid-cols-1 md:grid-cols-4 gap-4"[39m
+            [36m>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"col-span-1 aspect-square rounded-lg border-2 border-dashed flex flex-col items-center justify-center cursor-pointer transition-colors border-gr
+ay-300 hover:border-primary/50 bg-gray-50"[39m
+                [33mdata-testid[39m=[32m"dropzone"[39m
+              [36m>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"w-10 h-10 rounded-full bg-white shadow-sm flex items-center justify-center mb-2"[39m
+                [36m>[39m
+                  [36m<span[39m
+                    [33mclass[39m=[32m"text-gray-400 text-xl"[39m
+                  [36m>[39m
+                    [0m+[0m
+                  [36m</span>[39m
+                [36m</div>[39m
+                [36m<span[39m
+                  [33mclass[39m=[32m"text-sm text-gray-500 font-medium"[39m
+                [36m>[39m
+                  [0m?대?吏 異붽?[0m
+                [36m</span>[39m
+                [36m<input[39m
+                  [33maccept[39m=[32m"image/*"[39m
+                  [33mclass[39m=[32m"hidden"[39m
+                  [33mdata-testid[39m=[32m"file-input"[39m
+                  [33mmultiple[39m=[32m""[39m
+                  [33mtype[39m=[32m"file"[39m
+                [36m/>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+          [36m</div>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"bg-gradient-to-br from-indigo-50 to-blue-50 p-6 rounded-xl shadow-sm border border-indigo-100 mt-6"[39m
+          [36m>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"flex items-center gap-2 mb-4"[39m
+            [36m>[39m
+              [36m<span[39m
+                [33mclass[39m=[32m"text-xl"[39m
+              [36m>[39m
+                [0m??[0m
+              [36m</span>[39m
+              [36m<h2[39m
+                [33mclass[39m=[32m"text-lg font-bold text-indigo-900"[39m
+              [36m>[39m
+                [0mAI ?꾩슦誘?[0m
+              [36m</h2>[39m
+            [36m</div>[39m
+            [36m<p[39m
+              [33mclass[39m=[32m"text-sm text-indigo-700 mb-6"[39m
+            [36m>[39m
+              [0m?곹뭹紐낃낵 湲곕낯 ?뺣낫瑜??낅젰?섍퀬 AI???꾩???諛쏆븘蹂댁꽭?? 留ㅻ젰?곸씤 ?ㅻ챸怨?寃??理쒖쟻???쒓렇瑜??먮룞?쇰줈 ?앹꽦???쒕┰?덈떎.[0m
+            [36m</p>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"flex flex-col sm:flex-row gap-4"[39m
+            [36m>[39m
+              [36m<button[39m
+                [33mclass[39m=[32m"flex-1 flex items-center justify-center gap-2 bg-indigo-600 hover:bg-indigo-700 text-white py-3 px-4 rounded-lg font-medium transition-colors d
+isabled:opacity-70 disabled:cursor-not-allowed shadow-sm hover:shadow"[39m
+                [33mtype[39m=[32m"button"[39m
+              [36m>[39m
+                [36m<svg[39m
+                  [33mfill[39m=[32m"none"[39m
+                  [33mheight[39m=[32m"18"[39m
+                  [33mstroke[39m=[32m"currentColor"[39m
+                  [33mstroke-linecap[39m=[32m"round"[39m
+                  [33mstroke-linejoin[39m=[32m"round"[39m
+                  [33mstroke-width[39m=[32m"2"[39m
+                  [33mviewBox[39m=[32m"0 0 24 24"[39m
+                  [33mwidth[39m=[32m"18"[39m
+                  [33mxmlns[39m=[32m"http://www.w3.org/2000/svg"[39m
+                [36m>[39m
+                  [36m<path[39m
+                    [33md[39m=[32m"M12 2v4"[39m
+                  [36m/>[39m
+                  [36m<path[39m
+                    [33md[39m=[32m"M12 18v4"[39m
+                  [36m/>[39m
+                  [36m<path[39m
+                    [33md[39m=[32m"M4.93 4.93l2.83 2.83"[39m
+                  [36m/>[39m
+                  [36m<path[39m
+                    [33md[39m=[32m"M16.24 16.24l2.83 2.83"[39m
+                  [36m/>[39m
+                  [36m<path[39m
+                    [33md[39m=[32m"M2 12h4"[39m
+                  [36m/>[39m
+                  [36m<path[39m
+                    [33md[39m=[32m"M18 12h4"[39m
+                  [36m/>[39m
+                  [36m<path[39m
+                    [33md[39m=[32m"M4.93 19.07l2.83-2.83"[39m
+                  [36m/>[39m
+                  [36m<path[39m
+                    [33md[39m=[32m"M16.24 7.76l2.83-2.83"[39m
+                  [36m/>[39m
+                [36m</svg>[39m
+                [36m<span>[39m
+                  [0mAI濡??곹뭹 ?ㅻ챸 ?앹꽦[0m
+                [36m</span>[39m
+              [36m</button>[39m
+              [36m<button[39m
+                [33mclass[39m=[32m"flex-1 flex items-center justify-center gap-2 bg-white text-indigo-600 border border-indigo-200 hover:bg-indigo-50 hover:border-indigo-300 py-3
+ px-4 rounded-lg font-medium transition-all disabled:opacity-70 disabled:cursor-not-allowed shadow-sm hover:shadow"[39m
+                [33mtype[39m=[32m"button"[39m
+              [36m>[39m
+                [36m<svg[39m
+                  [33mfill[39m=[32m"none"[39m
+                  [33mheight[39m=[32m"18"[39m
+                  [33mstroke[39m=[32m"currentColor"[39m
+                  [33mstroke-linecap[39m=[32m"round"[39m
+                  [33mstroke-linejoin[39m=[32m"round"[39m
+                  [33mstroke-width[39m=[32m"2"[39m
+                  [33mviewBox[39m=[32m"0 0 24 24"[39m
+                  [33mwidth[39m=[32m"18"[39m
+                  [33mxmlns[39m=[32m"http://www.w3.org/2000/svg"[39m
+                [36m>[39m
+                  [36m<path[39m
+                    [33md[39m=[32m"M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"[39m
+                  [36m/>[39m
+                  [36m<line[39m
+                    [33mx1[39m=[32m"7"[39m
+                    [33mx2[39m=[32m"7.01"[39m
+                    [33my1[39m=[32m"7"[39m
+                    [33my2[39m=[32m"7"[39m
+                  [36m/>[39m
+                [36m</svg>[39m
+                [36m<span>[39m
+                  [0mSEO ?쒓렇 異붿쿇[0m
+                [36m</span>[39m
+              [36m</button>[39m
+            [36m</div>[39m
+          [36m</div>[39m
+        [36m</form>[39m
+      [36m</div>[39m
+    [36m</body>[39m
+
+    [0m [90m 80 |[39m             [36mawait[39m user[33m.[39mclick(screen[33m.[39mgetByRole([32m'button'[39m[33m,[39m { name[33m:[39m [32m'???[39m }))[33m;[39m
+     [90m 81 |[39m
+    [31m[1m>[22m[39m[90m 82 |[39m             [36mawait[39m waitFor(() [33m=>[39m {
+     [90m    |[39m                          [31m[1m^[22m[39m
+     [90m 83 |[39m                 expect(screen[33m.[39mgetByText([32m'?곹뭹紐낆쓣 ?낅젰?댁＜?몄슂.'[39m))[33m.[39mtoBeInTheDocument()[33m;[39m
+     [90m 84 |[39m             })[33m;[39m
+     [90m 85 |[39m[0m
+
+      at waitForWrapper (node_modules/@testing-library/dom/dist/wait-for.js:163:27)
+      at Object.<anonymous> (src/features/products/ui/ProductCreateForm.test.tsx:82:26)
+
+  ??ProductCreateForm ????寃利??먮윭 ?쒖떆 ??媛寃⑹씠 ?뚯닔?????먮윭 硫붿떆吏媛 ?쒖떆?쒕떎
+
+    Unable to find an element with the text: 媛寃⑹? 0???댁긽?댁뼱???⑸땲??. This could be because the text is broken up by multiple elements. In this case, you can provide a function for y
+our text matcher to make your matcher more flexible.
+
+    Ignored nodes: comments, script, style
+    [36m<body>[39m
+      [36m<div>[39m
+        [36m<form[39m
+          [33mclass[39m=[32m"max-w-4xl mx-auto pb-12"[39m
+        [36m>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"flex justify-between items-center mb-6"[39m
+          [36m>[39m
+            [36m<h1[39m
+              [33mclass[39m=[32m"text-2xl font-bold text-gray-900"[39m
+            [36m>[39m
+              [0m?곹뭹 ?깅줉[0m
+            [36m</h1>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"flex gap-3"[39m
+            [36m>[39m
+              [36m<button[39m
+                [33mclass[39m=[32m"px-4 py-2 border border-gray-300 rounded-lg text-gray-700 bg-white hover:bg-gray-50 transition-colors font-medium"[39m
+                [33mtype[39m=[32m"button"[39m
+              [36m>[39m
+                [0m痍⑥냼[0m
+              [36m</button>[39m
+              [36m<button[39m
+                [33mclass[39m=[32m"px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors font-medium disabled:bg-blue-400 disabled:cursor-not-allowed"[
+39m
+                [33mtype[39m=[32m"submit"[39m
+              [36m>[39m
+                [0m???[0m
+              [36m</button>[39m
+            [36m</div>[39m
+          [36m</div>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"bg-white p-6 rounded-xl shadow-sm border border-gray-100"[39m
+          [36m>[39m
+            [36m<h2[39m
+              [33mclass[39m=[32m"text-lg font-bold text-gray-800 mb-4"[39m
+            [36m>[39m
+              [0m湲곕낯 ?뺣낫[0m
+            [36m</h2>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"space-y-5"[39m
+            [36m>[39m
+              [36m<div>[39m
+                [36m<label[39m
+                  [33mclass[39m=[32m"block text-sm font-medium text-gray-700 mb-1"[39m
+                  [33mfor[39m=[32m"name"[39m
+                [36m>[39m
+                  [0m?곹뭹紐?[0m
+                  [36m<span[39m
+                    [33mclass[39m=[32m"text-red-500"[39m
+                  [36m>[39m
+                    [0m*[0m
+                  [36m</span>[39m
+                [36m</label>[39m
+                [36m<input[39m
+                  [33mclass[39m=[32m"w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition-shadow border-gray-300"[39
+m
+                  [33mid[39m=[32m"name"[39m
+                  [33mname[39m=[32m"name"[39m
+                  [33mplaceholder[39m=[32m"?곹뭹紐낆쓣 ?낅젰?섏꽭??[39m
+                  [33mtype[39m=[32m"text"[39m
+                  [33mvalue[39m=[32m"?뚯뒪???곹뭹"[39m
+                [36m/>[39m
+              [36m</div>[39m
+              [36m<div>[39m
+                [36m<label[39m
+                  [33mclass[39m=[32m"block text-sm font-medium text-gray-700 mb-1"[39m
+                  [33mfor[39m=[32m"description"[39m
+                [36m>[39m
+                  [0m?곹뭹 ?ㅻ챸[0m
+                [36m</label>[39m
+                [36m<textarea[39m
+                  [33mclass[39m=[32m"w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition-shadow resize-y border-gray
+-300"[39m
+                  [33mid[39m=[32m"description"[39m
+                  [33mname[39m=[32m"description"[39m
+                  [33mplaceholder[39m=[32m"?곹뭹??????곸꽭 ?ㅻ챸???낅젰?섏꽭??[39m
+                  [33mrows[39m=[32m"4"[39m
+                [36m/>[39m
+              [36m</div>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"grid grid-cols-1 md:grid-cols-3 gap-5"[39m
+              [36m>[39m
+                [36m<div>[39m
+                  [36m<label[39m
+                    [33mclass[39m=[32m"block text-sm font-medium text-gray-700 mb-1"[39m
+                    [33mfor[39m=[32m"category"[39m
+                  [36m>[39m
+                    [0m移댄뀒怨좊━[0m
+                  [36m</label>[39m
+                  [36m<select[39m
+                    [33mclass[39m=[32m"w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none bg-white"[39m
+                    [33mid[39m=[32m"category"[39m
+                    [33mname[39m=[32m"category"[39m
+                  [36m>[39m
+                    [36m<option[39m
+                      [33mvalue[39m=[32m"?꾩껜"[39m
+                    [36m>[39m
+                      [0m?꾩껜[0m
+                    [36m</option>[39m
+                    [36m<option[39m
+                      [33mvalue[39m=[32m"?꾩옄?쒗뭹"[39m
+                    [36m>[39m
+                      [0m?꾩옄?쒗뭹[0m
+                    [36m</option>[39m
+                    [36m<option[39m
+                      [33mvalue[39m=[32m"?섎쪟"[39m
+                    [36m>[39m
+                      [0m?섎쪟[0m
+                    [36m</option>[39m
+                    [36m<option[39m
+                      [33mvalue[39m=[32m"?앺뭹"[39m
+                    [36m>[39m
+                      [0m?앺뭹[0m
+                    [36m</option>[39m
+                  [36m</select>[39m
+                [36m</div>[39m
+                [36m<div>[39m
+                  [36m<label[39m
+                    [33mclass[39m=[32m"block text-sm font-medium text-gray-700 mb-1"[39m
+                    [33mfor[39m=[32m"price"[39m
+                  [36m>[39m
+                    [0m媛寃?(??[0m
+                  [36m</label>[39m
+                  [36m<input[39m
+                    [33mclass[39m=[32m"w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none border-gray-300"[39m
+                    [33mid[39m=[32m"price"[39m
+                    [33mname[39m=[32m"price"[39m
+                    [33mplaceholder[39m=[32m"0"[39m
+                    [33mtype[39m=[32m"number"[39m
+                    [33mvalue[39m=[32m"100"[39m
+                  [36m/>[39m
+                [36m</div>[39m
+                [36m<div>[39m
+                  [36m<label[39m
+                    [33mclass[39m=[32m"block text-sm font-medium text-gray-700 mb-1"[39m
+                    [33mfor[39m=[32m"stock"[39m
+                  [36m>[39m
+                    [0m?ш퀬 ?섎웾[0m
+                  [36m</label>[39m
+                  [36m<input[39m
+                    [33mclass[39m=[32m"w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none border-gray-300"[39m
+                    [33mid[39m=[32m"stock"[39m
+                    [33mname[39m=[32m"stock"[39m
+                    [33mplaceholder[39m=[32m"0"[39m
+                    [33mtype[39m=[32m"number"[39m
+                    [33mvalue[39m=[32m"0"[39m
+                  [36m/>[39m
+                [36m</div>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+          [36m</div>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"bg-white p-6 rounded-xl shadow-sm border border-gray-100 mt-6"[39m
+          [36m>[39m
+            [36m<h2[39m
+              [33mclass[39m=[32m"text-lg font-bold text-gray-800 mb-4"[39m
+            [36m>[39m
+              [0m?곹뭹 ?대?吏 (理쒕? 3媛?[0m
+            [36m</h2>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"grid grid-cols-1 md:grid-cols-4 gap-4"[39m
+            [36m>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"col-span-1 aspect-square rounded-lg border-2 border-dashed flex flex-col items-center justify-center cursor-pointer transition-colors border-gr
+ay-300 hover:border-primary/50 bg-gray-50"[39m
+                [33mdata-testid[39m=[32m"dropzone"[39m
+              [36m>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"w-10 h-10 rounded-full bg-white shadow-sm flex items-center justify-center mb-2"[39m
+                [36m>[39m
+                  [36m<span[39m
+                    [33mclass[39m=[32m"text-gray-400 text-xl"[39m
+                  [36m>[39m
+                    [0m+[0m
+                  [36m</span>[39m
+                [36m</div>[39m
+                [36m<span[39m
+                  [33mclass[39m=[32m"text-sm text-gray-500 font-medium"[39m
+                [36m>[39m
+                  [0m?대?吏 異붽?[0m
+                [36m</span>[39m
+                [36m<input[39m
+                  [33maccept[39m=[32m"image/*"[39m
+                  [33mclass[39m=[32m"hidden"[39m
+                  [33mdata-testid[39m=[32m"file-input"[39m
+                  [33mmultiple[39m=[32m""[39m
+                  [33mtype[39m=[32m"file"[39m
+                [36m/>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+          [36m</div>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"bg-gradient-to-br from-indigo-50 to-blue-50 p-6 rounded-xl shadow-sm border border-indigo-100 mt-6"[39m
+          [36m>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"flex items-center gap-2 mb-4"[39m
+            [36m>[39m
+              [36m<span[39m
+                [33mclass[39m=[32m"text-xl"[39m
+              [36m>[39m
+                [0m??[0m
+              [36m</span>[39m
+              [36m<h2[39m
+                [33mclass[39m=[32m"text-lg font-bold text-indigo-900"[39m
+              [36m>[39m
+                [0mAI ?꾩슦誘?[0m
+              [36m</h2>[39m
+            [36m</div>[39m
+            [36m<p[39m
+              [33mclass[39m=[32m"text-sm text-indigo-700 mb-6"[39m
+            [36m>[39m
+              [0m?곹뭹紐낃낵 湲곕낯 ?뺣낫瑜??낅젰?섍퀬 AI???꾩???諛쏆븘蹂댁꽭?? 留ㅻ젰?곸씤 ?ㅻ챸怨?寃??理쒖쟻???쒓렇瑜??먮룞?쇰줈 ?앹꽦???쒕┰?덈떎.[0m
+            [36m</p>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"flex flex-col sm:flex-row gap-4"[39m
+            [36m>[39m
+              [36m<button[39m
+                [33mclass[39m=[32m"flex-1 flex items-center justify-center gap-2 bg-indigo-600 hover:bg-indigo-700 text-white py-3 px-4 rounded-lg font-medium transition-colors d
+isabled:opacity-70 disabled:cursor-not-allowed shadow-sm hover:shadow"[39m
+                [33mtype[39m=[32m"button"[39m
+              [36m>[39m
+                [36m<svg[39m
+                  [33mfill[39m=[32m"none"[39m
+                  [33mheight[39m=[32m"18"[39m
+                  [33mstroke[39m=[32m"currentColor"[39m
+                  [33mstroke-linecap[39m=[32m"round"[39m
+                  [33mstroke-linejoin[39m=[32m"round"[39m
+                  [33mstroke-width[39m=[32m"2"[39m
+                  [33mviewBox[39m=[32m"0 0 24 24"[39m
+                  [33mwidth[39m=[32m"18"[39m
+                  [33mxmlns[39m=[32m"http://www.w3.org/2000/svg"[39m
+                [36m>[39m
+                  [36m<path[39m
+                    [33md[39m=[32m"M12 2v4"[39m
+                  [36m/>[39m
+                  [36m<path[39m
+                    [33md[39m=[32m"M12 18v4"[39m
+                  [36m/>[39m
+                  [36m<path[39m
+                    [33md[39m=[32m"M4.93 4.93l2.83 2.83"[39m
+                  [36m/>[39m
+                  [36m<path[39m
+                    [33md[39m=[32m"M16.24 16.24l2.83 2.83"[39m
+                  [36m/>[39m
+                  [36m<path[39m
+                    [33md[39m=[32m"M2 12h4"[39m
+                  [36m/>[39m
+                  [36m<path[39m
+                    [33md[39m=[32m"M18 12h4"[39m
+                  [36m/>[39m
+                  [36m<path[39m
+                    [33md[39m=[32m"M4.93 19.07l2.83-2.83"[39m
+                  [36m/>[39m
+                  [36m<path[39m
+                    [33md[39m=[32m"M16.24 7.76l2.83-2.83"[39m
+                  [36m/>[39m
+                [36m</svg>[39m
+                [36m<span>[39m
+                  [0mAI濡??곹뭹 ?ㅻ챸 ?앹꽦[0m
+                [36m</span>[39m
+              [36m</button>[39m
+              [36m<button[39m
+                [33mclass[39m=[32m"flex-1 flex items-center justify-center gap-2 bg-white text-indigo-600 border border-indigo-200 hover:bg-indigo-50 hover:border-indigo-300 py-3
+ px-4 rounded-lg font-medium transition-all disabled:opacity-70 disabled:cursor-not-allowed shadow-sm hover:shadow"[39m
+                [33mtype[39m=[32m"button"[39m
+              [36m>[39m
+                [36m<svg[39m
+                  [33mfill[39m=[32m"none"[39m
+                  [33mheight[39m=[32m"18"[39m
+                  [33mstroke[39m=[32m"currentColor"[39m
+                  [33mstroke-linecap[39m=[32m"round"[39m
+                  [33mstroke-linejoin[39m=[32m"round"[39m
+                  [33mstroke-width[39m=[32m"2"[39m
+                  [33mviewBox[39m=[32m"0 0 24 24"[39m
+                  [33mwidth[39m=[32m"18"[39m
+                  [33mxmlns[39m=[32m"http://www.w3.org/2000/svg"[39m
+                [36m>[39m
+                  [36m<path[39m
+                    [33md[39m=[32m"M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"[39m
+                  [36m/>[39m
+                  [36m<line[39m
+                    [33mx1[39m=[32m"7"[39m
+                    [33mx2[39m=[32m"7.01"[39m
+                    [33my1[39m=[32m"7"[39m
+                    [33my2[39m=[32m"7"[39m
+                  [36m/>[39m
+                [36m</svg>[39m
+                [36m<span>[39m
+                  [0mSEO ?쒓렇 異붿쿇[0m
+                [36m</span>[39m
+              [36m</button>[39m
+            [36m</div>[39m
+          [36m</div>[39m
+        [36m</form>[39m
+      [36m</div>[39m
+    [36m</body>[39m
+
+    [0m [90m  99 |[39m             [36mawait[39m user[33m.[39mclick(screen[33m.[39mgetByRole([32m'button'[39m[33m,[39m { name[33m:[39m [32m'???[39m }))[33m;[39m
+     [90m 100 |[39m
+    [31m[1m>[22m[39m[90m 101 |[39m             [36mawait[39m waitFor(() [33m=>[39m {
+     [90m     |[39m                          [31m[1m^[22m[39m
+     [90m 102 |[39m                 expect(screen[33m.[39mgetByText([32m'媛寃⑹? 0???댁긽?댁뼱???⑸땲??'[39m))[33m.[39mtoBeInTheDocument()[33m;[39m
+     [90m 103 |[39m             })[33m;[39m
+     [90m 104 |[39m[0m
+
+      at waitForWrapper (node_modules/@testing-library/dom/dist/wait-for.js:163:27)
+      at Object.<anonymous> (src/features/products/ui/ProductCreateForm.test.tsx:101:26)
+
+  ??ProductCreateForm ????寃利??먮윭 ?쒖떆 ???ш퀬媛 ?뚯닔?????먮윭 硫붿떆吏媛 ?쒖떆?쒕떎
+
+    Unable to find an element with the text: ?ш퀬??0 ?댁긽?댁뼱???⑸땲??. This could be because the text is broken up by multiple elements. In this case, you can provide a function for you
+r text matcher to make your matcher more flexible.
+
+    Ignored nodes: comments, script, style
+    [36m<body>[39m
+      [36m<div>[39m
+        [36m<form[39m
+          [33mclass[39m=[32m"max-w-4xl mx-auto pb-12"[39m
+        [36m>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"flex justify-between items-center mb-6"[39m
+          [36m>[39m
+            [36m<h1[39m
+              [33mclass[39m=[32m"text-2xl font-bold text-gray-900"[39m
+            [36m>[39m
+              [0m?곹뭹 ?깅줉[0m
+            [36m</h1>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"flex gap-3"[39m
+            [36m>[39m
+              [36m<button[39m
+                [33mclass[39m=[32m"px-4 py-2 border border-gray-300 rounded-lg text-gray-700 bg-white hover:bg-gray-50 transition-colors font-medium"[39m
+                [33mtype[39m=[32m"button"[39m
+              [36m>[39m
+                [0m痍⑥냼[0m
+              [36m</button>[39m
+              [36m<button[39m
+                [33mclass[39m=[32m"px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors font-medium disabled:bg-blue-400 disabled:cursor-not-allowed"[
+39m
+                [33mtype[39m=[32m"submit"[39m
+              [36m>[39m
+                [0m???[0m
+              [36m</button>[39m
+            [36m</div>[39m
+          [36m</div>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"bg-white p-6 rounded-xl shadow-sm border border-gray-100"[39m
+          [36m>[39m
+            [36m<h2[39m
+              [33mclass[39m=[32m"text-lg font-bold text-gray-800 mb-4"[39m
+            [36m>[39m
+              [0m湲곕낯 ?뺣낫[0m
+            [36m</h2>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"space-y-5"[39m
+            [36m>[39m
+              [36m<div>[39m
+                [36m<label[39m
+                  [33mclass[39m=[32m"block text-sm font-medium text-gray-700 mb-1"[39m
+                  [33mfor[39m=[32m"name"[39m
+                [36m>[39m
+                  [0m?곹뭹紐?[0m
+                  [36m<span[39m
+                    [33mclass[39m=[32m"text-red-500"[39m
+                  [36m>[39m
+                    [0m*[0m
+                  [36m</span>[39m
+                [36m</label>[39m
+                [36m<input[39m
+                  [33mclass[39m=[32m"w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition-shadow border-gray-300"[39
+m
+                  [33mid[39m=[32m"name"[39m
+                  [33mname[39m=[32m"name"[39m
+                  [33mplaceholder[39m=[32m"?곹뭹紐낆쓣 ?낅젰?섏꽭??[39m
+                  [33mtype[39m=[32m"text"[39m
+                  [33mvalue[39m=[32m"?뚯뒪???곹뭹"[39m
+                [36m/>[39m
+              [36m</div>[39m
+              [36m<div>[39m
+                [36m<label[39m
+                  [33mclass[39m=[32m"block text-sm font-medium text-gray-700 mb-1"[39m
+                  [33mfor[39m=[32m"description"[39m
+                [36m>[39m
+                  [0m?곹뭹 ?ㅻ챸[0m
+                [36m</label>[39m
+                [36m<textarea[39m
+                  [33mclass[39m=[32m"w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition-shadow resize-y border-gray
+-300"[39m
+                  [33mid[39m=[32m"description"[39m
+                  [33mname[39m=[32m"description"[39m
+                  [33mplaceholder[39m=[32m"?곹뭹??????곸꽭 ?ㅻ챸???낅젰?섏꽭??[39m
+                  [33mrows[39m=[32m"4"[39m
+                [36m/>[39m
+              [36m</div>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"grid grid-cols-1 md:grid-cols-3 gap-5"[39m
+              [36m>[39m
+                [36m<div>[39m
+                  [36m<label[39m
+                    [33mclass[39m=[32m"block text-sm font-medium text-gray-700 mb-1"[39m
+                    [33mfor[39m=[32m"category"[39m
+                  [36m>[39m
+                    [0m移댄뀒怨좊━[0m
+                  [36m</label>[39m
+                  [36m<select[39m
+                    [33mclass[39m=[32m"w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none bg-white"[39m
+                    [33mid[39m=[32m"category"[39m
+                    [33mname[39m=[32m"category"[39m
+                  [36m>[39m
+                    [36m<option[39m
+                      [33mvalue[39m=[32m"?꾩껜"[39m
+                    [36m>[39m
+                      [0m?꾩껜[0m
+                    [36m</option>[39m
+                    [36m<option[39m
+                      [33mvalue[39m=[32m"?꾩옄?쒗뭹"[39m
+                    [36m>[39m
+                      [0m?꾩옄?쒗뭹[0m
+                    [36m</option>[39m
+                    [36m<option[39m
+                      [33mvalue[39m=[32m"?섎쪟"[39m
+                    [36m>[39m
+                      [0m?섎쪟[0m
+                    [36m</option>[39m
+                    [36m<option[39m
+                      [33mvalue[39m=[32m"?앺뭹"[39m
+                    [36m>[39m
+                      [0m?앺뭹[0m
+                    [36m</option>[39m
+                  [36m</select>[39m
+                [36m</div>[39m
+                [36m<div>[39m
+                  [36m<label[39m
+                    [33mclass[39m=[32m"block text-sm font-medium text-gray-700 mb-1"[39m
+                    [33mfor[39m=[32m"price"[39m
+                  [36m>[39m
+                    [0m媛寃?(??[0m
+                  [36m</label>[39m
+                  [36m<input[39m
+                    [33mclass[39m=[32m"w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none border-gray-300"[39m
+                    [33mid[39m=[32m"price"[39m
+                    [33mname[39m=[32m"price"[39m
+                    [33mplaceholder[39m=[32m"0"[39m
+                    [33mtype[39m=[32m"number"[39m
+                    [33mvalue[39m=[32m"0"[39m
+                  [36m/>[39m
+                [36m</div>[39m
+                [36m<div>[39m
+                  [36m<label[39m
+                    [33mclass[39m=[32m"block text-sm font-medium text-gray-700 mb-1"[39m
+                    [33mfor[39m=[32m"stock"[39m
+                  [36m>[39m
+                    [0m?ш퀬 ?섎웾[0m
+                  [36m</label>[39m
+                  [36m<input[39m
+                    [33mclass[39m=[32m"w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none border-gray-300"[39m
+                    [33mid[39m=[32m"stock"[39m
+                    [33mname[39m=[32m"stock"[39m
+                    [33mplaceholder[39m=[32m"0"[39m
+                    [33mtype[39m=[32m"number"[39m
+                    [33mvalue[39m=[32m"5"[39m
+                  [36m/>[39m
+                [36m</div>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+          [36m</div>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"bg-white p-6 rounded-xl shadow-sm border border-gray-100 mt-6"[39m
+          [36m>[39m
+            [36m<h2[39m
+              [33mclass[39m=[32m"text-lg font-bold text-gray-800 mb-4"[39m
+            [36m>[39m
+              [0m?곹뭹 ?대?吏 (理쒕? 3媛?[0m
+            [36m</h2>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"grid grid-cols-1 md:grid-cols-4 gap-4"[39m
+            [36m>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"col-span-1 aspect-square rounded-lg border-2 border-dashed flex flex-col items-center justify-center cursor-pointer transition-colors border-gr
+ay-300 hover:border-primary/50 bg-gray-50"[39m
+                [33mdata-testid[39m=[32m"dropzone"[39m
+              [36m>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"w-10 h-10 rounded-full bg-white shadow-sm flex items-center justify-center mb-2"[39m
+                [36m>[39m
+                  [36m<span[39m
+                    [33mclass[39m=[32m"text-gray-400 text-xl"[39m
+                  [36m>[39m
+                    [0m+[0m
+                  [36m</span>[39m
+                [36m</div>[39m
+                [36m<span[39m
+                  [33mclass[39m=[32m"text-sm text-gray-500 font-medium"[39m
+                [36m>[39m
+                  [0m?대?吏 異붽?[0m
+                [36m</span>[39m
+                [36m<input[39m
+                  [33maccept[39m=[32m"image/*"[39m
+                  [33mclass[39m=[32m"hidden"[39m
+                  [33mdata-testid[39m=[32m"file-input"[39m
+                  [33mmultiple[39m=[32m""[39m
+                  [33mtype[39m=[32m"file"[39m
+                [36m/>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+          [36m</div>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"bg-gradient-to-br from-indigo-50 to-blue-50 p-6 rounded-xl shadow-sm border border-indigo-100 mt-6"[39m
+          [36m>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"flex items-center gap-2 mb-4"[39m
+            [36m>[39m
+              [36m<span[39m
+                [33mclass[39m=[32m"text-xl"[39m
+              [36m>[39m
+                [0m??[0m
+              [36m</span>[39m
+              [36m<h2[39m
+                [33mclass[39m=[32m"text-lg font-bold text-indigo-900"[39m
+              [36m>[39m
+                [0mAI ?꾩슦誘?[0m
+              [36m</h2>[39m
+            [36m</div>[39m
+            [36m<p[39m
+              [33mclass[39m=[32m"text-sm text-indigo-700 mb-6"[39m
+            [36m>[39m
+              [0m?곹뭹紐낃낵 湲곕낯 ?뺣낫瑜??낅젰?섍퀬 AI???꾩???諛쏆븘蹂댁꽭?? 留ㅻ젰?곸씤 ?ㅻ챸怨?寃??理쒖쟻???쒓렇瑜??먮룞?쇰줈 ?앹꽦???쒕┰?덈떎.[0m
+            [36m</p>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"flex flex-col sm:flex-row gap-4"[39m
+            [36m>[39m
+              [36m<button[39m
+                [33mclass[39m=[32m"flex-1 flex items-center justify-center gap-2 bg-indigo-600 hover:bg-indigo-700 text-white py-3 px-4 rounded-lg font-medium transition-colors d
+isabled:opacity-70 disabled:cursor-not-allowed shadow-sm hover:shadow"[39m
+                [33mtype[39m=[32m"button"[39m
+              [36m>[39m
+                [36m<svg[39m
+                  [33mfill[39m=[32m"none"[39m
+                  [33mheight[39m=[32m"18"[39m
+                  [33mstroke[39m=[32m"currentColor"[39m
+                  [33mstroke-linecap[39m=[32m"round"[39m
+                  [33mstroke-linejoin[39m=[32m"round"[39m
+                  [33mstroke-width[39m=[32m"2"[39m
+                  [33mviewBox[39m=[32m"0 0 24 24"[39m
+                  [33mwidth[39m=[32m"18"[39m
+                  [33mxmlns[39m=[32m"http://www.w3.org/2000/svg"[39m
+                [36m>[39m
+                  [36m<path[39m
+                    [33md[39m=[32m"M12 2v4"[39m
+                  [36m/>[39m
+                  [36m<path[39m
+                    [33md[39m=[32m"M12 18v4"[39m
+                  [36m/>[39m
+                  [36m<path[39m
+                    [33md[39m=[32m"M4.93 4.93l2.83 2.83"[39m
+                  [36m/>[39m
+                  [36m<path[39m
+                    [33md[39m=[32m"M16.24 16.24l2.83 2.83"[39m
+                  [36m/>[39m
+                  [36m<path[39m
+                    [33md[39m=[32m"M2 12h4"[39m
+                  [36m/>[39m
+                  [36m<path[39m
+                    [33md[39m=[32m"M18 12h4"[39m
+                  [36m/>[39m
+                  [36m<path[39m
+                    [33md[39m=[32m"M4.93 19.07l2.83-2.83"[39m
+                  [36m/>[39m
+                  [36m<path[39m
+                    [33md[39m=[32m"M16.24 7.76l2.83-2.83"[39m
+                  [36m/>[39m
+                [36m</svg>[39m
+                [36m<span>[39m
+                  [0mAI濡??곹뭹 ?ㅻ챸 ?앹꽦[0m
+                [36m</span>[39m
+              [36m</button>[39m
+              [36m<button[39m
+                [33mclass[39m=[32m"flex-1 flex items-center justify-center gap-2 bg-white text-indigo-600 border border-indigo-200 hover:bg-indigo-50 hover:border-indigo-300 py-3
+ px-4 rounded-lg font-medium transition-all disabled:opacity-70 disabled:cursor-not-allowed shadow-sm hover:shadow"[39m
+                [33mtype[39m=[32m"button"[39m
+              [36m>[39m
+                [36m<svg[39m
+                  [33mfill[39m=[32m"none"[39m
+                  [33mheight[39m=[32m"18"[39m
+                  [33mstroke[39m=[32m"currentColor"[39m
+                  [33mstroke-linecap[39m=[32m"round"[39m
+                  [33mstroke-linejoin[39m=[32m"round"[39m
+                  [33mstroke-width[39m=[32m"2"[39m
+                  [33mviewBox[39m=[32m"0 0 24 24"[39m
+                  [33mwidth[39m=[32m"18"[39m
+                  [33mxmlns[39m=[32m"http://www.w3.org/2000/svg"[39m
+                [36m>[39m
+                  [36m<path[39m
+                    [33md[39m=[32m"M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"[39m
+                  [36m/>[39m
+                  [36m<line[39m
+                    [33mx1[39m=[32m"7"[39m
+                    [33mx2[39m=[32m"7.01"[39m
+                    [33my1[39m=[32m"7"[39m
+                    [33my2[39m=[32m"7"[39m
+                  [36m/>[39m
+                [36m</svg>[39m
+                [36m<span>[39m
+                  [0mSEO ?쒓렇 異붿쿇[0m
+                [36m</span>[39m
+              [36m</button>[39m
+            [36m</div>[39m
+          [36m</div>[39m
+        [36m</form>[39m
+      [36m</div>[39m
+    [36m</body>[39m
+
+    [0m [90m 117 |[39m             [36mawait[39m user[33m.[39mclick(screen[33m.[39mgetByRole([32m'button'[39m[33m,[39m { name[33m:[39m [32m'???[39m }))[33m;[39m
+     [90m 118 |[39m
+    [31m[1m>[22m[39m[90m 119 |[39m             [36mawait[39m waitFor(() [33m=>[39m {
+     [90m     |[39m                          [31m[1m^[22m[39m
+     [90m 120 |[39m                 expect(screen[33m.[39mgetByText([32m'?ш퀬??0 ?댁긽?댁뼱???⑸땲??'[39m))[33m.[39mtoBeInTheDocument()[33m;[39m
+     [90m 121 |[39m             })[33m;[39m
+     [90m 122 |[39m[0m
+
+      at waitForWrapper (node_modules/@testing-library/dom/dist/wait-for.js:163:27)
+      at Object.<anonymous> (src/features/products/ui/ProductCreateForm.test.tsx:119:26)
+
+  ??ProductCreateForm ????寃利??먮윭 ?쒖떆 ???щ윭 ?꾨뱶???숈떆???먮윭 硫붿떆吏媛 ?쒖떆?쒕떎
+
+    Unable to find an element with the text: ?곹뭹紐낆쓣 ?낅젰?댁＜?몄슂.. This could be because the text is broken up by multiple elements. In this case, you can provide a function for your t
+ext matcher to make your matcher more flexible.
+
+    Ignored nodes: comments, script, style
+    [36m<body>[39m
+      [36m<div>[39m
+        [36m<form[39m
+          [33mclass[39m=[32m"max-w-4xl mx-auto pb-12"[39m
+        [36m>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"flex justify-between items-center mb-6"[39m
+          [36m>[39m
+            [36m<h1[39m
+              [33mclass[39m=[32m"text-2xl font-bold text-gray-900"[39m
+            [36m>[39m
+              [0m?곹뭹 ?깅줉[0m
+            [36m</h1>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"flex gap-3"[39m
+            [36m>[39m
+              [36m<button[39m
+                [33mclass[39m=[32m"px-4 py-2 border border-gray-300 rounded-lg text-gray-700 bg-white hover:bg-gray-50 transition-colors font-medium"[39m
+                [33mtype[39m=[32m"button"[39m
+              [36m>[39m
+                [0m痍⑥냼[0m
+              [36m</button>[39m
+              [36m<button[39m
+                [33mclass[39m=[32m"px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors font-medium disabled:bg-blue-400 disabled:cursor-not-allowed"[
+39m
+                [33mtype[39m=[32m"submit"[39m
+              [36m>[39m
+                [0m???[0m
+              [36m</button>[39m
+            [36m</div>[39m
+          [36m</div>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"bg-white p-6 rounded-xl shadow-sm border border-gray-100"[39m
+          [36m>[39m
+            [36m<h2[39m
+              [33mclass[39m=[32m"text-lg font-bold text-gray-800 mb-4"[39m
+            [36m>[39m
+              [0m湲곕낯 ?뺣낫[0m
+            [36m</h2>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"space-y-5"[39m
+            [36m>[39m
+              [36m<div>[39m
+                [36m<label[39m
+                  [33mclass[39m=[32m"block text-sm font-medium text-gray-700 mb-1"[39m
+                  [33mfor[39m=[32m"name"[39m
+                [36m>[39m
+                  [0m?곹뭹紐?[0m
+                  [36m<span[39m
+                    [33mclass[39m=[32m"text-red-500"[39m
+                  [36m>[39m
+                    [0m*[0m
+                  [36m</span>[39m
+                [36m</label>[39m
+                [36m<input[39m
+                  [33mclass[39m=[32m"w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition-shadow border-red-500"[39m
+                  [33mid[39m=[32m"name"[39m
+                  [33mname[39m=[32m"name"[39m
+                  [33mplaceholder[39m=[32m"?곹뭹紐낆쓣 ?낅젰?섏꽭??[39m
+                  [33mtype[39m=[32m"text"[39m
+                  [33mvalue[39m=[32m""[39m
+                [36m/>[39m
+                [36m<p[39m
+                  [33mclass[39m=[32m"mt-1 text-sm text-red-600"[39m
+                [36m>[39m
+                  [0m[object Object][0m
+                [36m</p>[39m
+              [36m</div>[39m
+              [36m<div>[39m
+                [36m<label[39m
+                  [33mclass[39m=[32m"block text-sm font-medium text-gray-700 mb-1"[39m
+                  [33mfor[39m=[32m"description"[39m
+                [36m>[39m
+                  [0m?곹뭹 ?ㅻ챸[0m
+                [36m</label>[39m
+                [36m<textarea[39m
+                  [33mclass[39m=[32m"w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition-shadow resize-y border-gray
+-300"[39m
+                  [33mid[39m=[32m"description"[39m
+                  [33mname[39m=[32m"description"[39m
+                  [33mplaceholder[39m=[32m"?곹뭹??????곸꽭 ?ㅻ챸???낅젰?섏꽭??[39m
+                  [33mrows[39m=[32m"4"[39m
+                [36m/>[39m
+              [36m</div>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"grid grid-cols-1 md:grid-cols-3 gap-5"[39m
+              [36m>[39m
+                [36m<div>[39m
+                  [36m<label[39m
+                    [33mclass[39m=[32m"block text-sm font-medium text-gray-700 mb-1"[39m
+                    [33mfor[39m=[32m"category"[39m
+                  [36m>[39m
+                    [0m移댄뀒怨좊━[0m
+                  [36m</label>[39m
+                  [36m<select[39m
+                    [33mclass[39m=[32m"w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none bg-white"[39m
+                    [33mid[39m=[32m"category"[39m
+                    [33mname[39m=[32m"category"[39m
+                  [36m>[39m
+                    [36m<option[39m
+                      [33mvalue[39m=[32m"?꾩껜"[39m
+                    [36m>[39m
+                      [0m?꾩껜[0m
+                    [36m</option>[39m
+                    [36m<option[39m
+                      [33mvalue[39m=[32m"?꾩옄?쒗뭹"[39m
+                    [36m>[39m
+                      [0m?꾩옄?쒗뭹[0m
+                    [36m</option>[39m
+                    [36m<option[39m
+                      [33mvalue[39m=[32m"?섎쪟"[39m
+                    [36m>[39m
+                      [0m?섎쪟[0m
+                    [36m</option>[39m
+                    [36m<option[39m
+                      [33mvalue[39m=[32m"?앺뭹"[39m
+                    [36m>[39m
+                      [0m?앺뭹[0m
+                    [36m</option>[39m
+                  [36m</select>[39m
+                [36m</div>[39m
+                [36m<div>[39m
+                  [36m<label[39m
+                    [33mclass[39m=[32m"block text-sm font-medium text-gray-700 mb-1"[39m
+                    [33mfor[39m=[32m"price"[39m
+                  [36m>[39m
+                    [0m媛寃?(??[0m
+                  [36m</label>[39m
+                  [36m<input[39m
+                    [33mclass[39m=[32m"w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none border-gray-300"[39m
+                    [33mid[39m=[32m"price"[39m
+                    [33mname[39m=[32m"price"[39m
+                    [33mplaceholder[39m=[32m"0"[39m
+                    [33mtype[39m=[32m"number"[39m
+                    [33mvalue[39m=[32m"1"[39m
+                  [36m/>[39m
+                [36m</div>[39m
+                [36m<div>[39m
+                  [36m<label[39m
+                    [33mclass[39m=[32m"block text-sm font-medium text-gray-700 mb-1"[39m
+                    [33mfor[39m=[32m"stock"[39m
+                  [36m>[39m
+                    [0m?ш퀬 ?섎웾[0m
+                  [36m</label>[39m
+                  [36m<input[39m
+                    [33mclass[39m=[32m"w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none border-gray-300"[39m
+                    [33mid[39m=[32m"stock"[39m
+                    [33mname[39m=[32m"stock"[39m
+                    [33mplaceholder[39m=[32m"0"[39m
+                    [33mtype[39m=[32m"number"[39m
+                    [33mvalue[39m=[32m"1"[39m
+                  [36m/>[39m
+                [36m</div>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+          [36m</div>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"bg-white p-6 rounded-xl shadow-sm border border-gray-100 mt-6"[39m
+          [36m>[39m
+            [36m<h2[39m
+              [33mclass[39m=[32m"text-lg font-bold text-gray-800 mb-4"[39m
+            [36m>[39m
+              [0m?곹뭹 ?대?吏 (理쒕? 3媛?[0m
+            [36m</h2>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"grid grid-cols-1 md:grid-cols-4 gap-4"[39m
+            [36m>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"col-span-1 aspect-square rounded-lg border-2 border-dashed flex flex-col items-center justify-center cursor-pointer transition-colors border-gr
+ay-300 hover:border-primary/50 bg-gray-50"[39m
+                [33mdata-testid[39m=[32m"dropzone"[39m
+              [36m>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"w-10 h-10 rounded-full bg-white shadow-sm flex items-center justify-center mb-2"[39m
+                [36m>[39m
+                  [36m<span[39m
+                    [33mclass[39m=[32m"text-gray-400 text-xl"[39m
+                  [36m>[39m
+                    [0m+[0m
+                  [36m</span>[39m
+                [36m</div>[39m
+                [36m<span[39m
+                  [33mclass[39m=[32m"text-sm text-gray-500 font-medium"[39m
+                [36m>[39m
+                  [0m?대?吏 異붽?[0m
+                [36m</span>[39m
+                [36m<input[39m
+                  [33maccept[39m=[32m"image/*"[39m
+                  [33mclass[39m=[32m"hidden"[39m
+                  [33mdata-testid[39m=[32m"file-input"[39m
+                  [33mmultiple[39m=[32m""[39m
+                  [33mtype[39m=[32m"file"[39m
+                [36m/>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+          [36m</div>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"bg-gradient-to-br from-indigo-50 to-blue-50 p-6 rounded-xl shadow-sm border border-indigo-100 mt-6"[39m
+          [36m>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"flex items-center gap-2 mb-4"[39m
+            [36m>[39m
+              [36m<span[39m
+                [33mclass[39m=[32m"text-xl"[39m
+              [36m>[39m
+                [0m??[0m
+              [36m</span>[39m
+              [36m<h2[39m
+                [33mclass[39m=[32m"text-lg font-bold text-indigo-900"[39m
+              [36m>[39m
+                [0mAI ?꾩슦誘?[0m
+              [36m</h2>[39m
+            [36m</div>[39m
+            [36m<p[39m
+              [33mclass[39m=[32m"text-sm text-indigo-700 mb-6"[39m
+            [36m>[39m
+              [0m?곹뭹紐낃낵 湲곕낯 ?뺣낫瑜??낅젰?섍퀬 AI???꾩???諛쏆븘蹂댁꽭?? 留ㅻ젰?곸씤 ?ㅻ챸怨?寃??理쒖쟻???쒓렇瑜??먮룞?쇰줈 ?앹꽦???쒕┰?덈떎.[0m
+            [36m</p>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"flex flex-col sm:flex-row gap-4"[39m
+            [36m>[39m
+              [36m<button[39m
+                [33mclass[39m=[32m"flex-1 flex items-center justify-center gap-2 bg-indigo-600 hover:bg-indigo-700 text-white py-3 px-4 rounded-lg font-medium transition-colors d
+isabled:opacity-70 disabled:cursor-not-allowed shadow-sm hover:shadow"[39m
+                [33mtype[39m=[32m"button"[39m
+              [36m>[39m
+                [36m<svg[39m
+                  [33mfill[39m=[32m"none"[39m
+                  [33mheight[39m=[32m"18"[39m
+                  [33mstroke[39m=[32m"currentColor"[39m
+                  [33mstroke-linecap[39m=[32m"round"[39m
+                  [33mstroke-linejoin[39m=[32m"round"[39m
+                  [33mstroke-width[39m=[32m"2"[39m
+                  [33mviewBox[39m=[32m"0 0 24 24"[39m
+                  [33mwidth[39m=[32m"18"[39m
+                  [33mxmlns[39m=[32m"http://www.w3.org/2000/svg"[39m
+                [36m>[39m
+                  [36m<path[39m
+                    [33md[39m=[32m"M12 2v4"[39m
+                  [36m/>[39m
+                  [36m<path[39m
+                    [33md[39m=[32m"M12 18v4"[39m
+                  [36m/>[39m
+                  [36m<path[39m
+                    [33md[39m=[32m"M4.93 4.93l2.83 2.83"[39m
+                  [36m/>[39m
+                  [36m<path[39m
+                    [33md[39m=[32m"M16.24 16.24l2.83 2.83"[39m
+                  [36m/>[39m
+                  [36m<path[39m
+                    [33md[39m=[32m"M2 12h4"[39m
+                  [36m/>[39m
+                  [36m<path[39m
+                    [33md[39m=[32m"M18 12h4"[39m
+                  [36m/>[39m
+                  [36m<path[39m
+                    [33md[39m=[32m"M4.93 19.07l2.83-2.83"[39m
+                  [36m/>[39m
+                  [36m<path[39m
+                    [33md[39m=[32m"M16.24 7.76l2.83-2.83"[39m
+                  [36m/>[39m
+                [36m</svg>[39m
+                [36m<span>[39m
+                  [0mAI濡??곹뭹 ?ㅻ챸 ?앹꽦[0m
+                [36m</span>[39m
+              [36m</button>[39m
+              [36m<button[39m
+                [33mclass[39m=[32m"flex-1 flex items-center justify-center gap-2 bg-white text-indigo-600 border border-indigo-200 hover:bg-indigo-50 hover:border-indigo-300 py-3
+ px-4 rounded-lg font-medium transition-all disabled:opacity-70 disabled:cursor-not-allowed shadow-sm hover:shadow"[39m
+                [33mtype[39m=[32m"button"[39m
+              [36m>[39m
+                [36m<svg[39m
+                  [33mfill[39m=[32m"none"[39m
+                  [33mheight[39m=[32m"18"[39m
+                  [33mstroke[39m=[32m"currentColor"[39m
+                  [33mstroke-linecap[39m=[32m"round"[39m
+                  [33mstroke-linejoin[39m=[32m"round"[39m
+                  [33mstroke-width[39m=[32m"2"[39m
+                  [33mviewBox[39m=[32m"0 0 24 24"[39m
+                  [33mwidth[39m=[32m"18"[39m
+                  [33mxmlns[39m=[32m"http://www.w3.org/2000/svg"[39m
+                [36m>[39m
+                  [36m<path[39m
+                    [33md[39m=[32m"M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"[39m
+                  [36m/>[39m
+                  [36m<line[39m
+                    [33mx1[39m=[32m"7"[39m
+                    [33mx2[39m=[32m"7.01"[39m
+                    [33my1[39m=[32m"7"[39m
+                    [33my2[39m=[32m"7"[39m
+                  [36m/>[39m
+                [36m</svg>[39m
+                [36m<span>[39m
+                  [0mSEO ?쒓렇 異붿쿇[0m
+                [36m</span>[39m
+              [36m</button>[39m
+            [36m</div>[39m
+          [36m</div>[39m
+        [36m</form>[39m
+      [36m</div>[39m
+    [36m</body>[39m
+
+    [0m [90m 156 |[39m             [36mawait[39m user[33m.[39mclick(screen[33m.[39mgetByRole([32m'button'[39m[33m,[39m { name[33m:[39m [32m'???[39m }))[33m;[39m
+     [90m 157 |[39m
+    [31m[1m>[22m[39m[90m 158 |[39m             [36mawait[39m waitFor(() [33m=>[39m {
+     [90m     |[39m                          [31m[1m^[22m[39m
+     [90m 159 |[39m                 expect(screen[33m.[39mgetByText([32m'?곹뭹紐낆쓣 ?낅젰?댁＜?몄슂.'[39m))[33m.[39mtoBeInTheDocument()[33m;[39m
+     [90m 160 |[39m                 expect(screen[33m.[39mgetByText([32m'媛寃⑹? 0???댁긽?댁뼱???⑸땲??'[39m))[33m.[39mtoBeInTheDocument()[33m;[39m
+     [90m 161 |[39m                 expect(screen[33m.[39mgetByText([32m'?ш퀬??0 ?댁긽?댁뼱???⑸땲??'[39m))[33m.[39mtoBeInTheDocument()[33m;[39m[0m
+
+      at waitForWrapper (node_modules/@testing-library/dom/dist/wait-for.js:163:27)
+      at Object.<anonymous> (src/features/products/ui/ProductCreateForm.test.tsx:158:26)
+
+Test Suites: 1 failed, 1 total
+Tests:       4 failed, 5 passed, 9 total
+Snapshots:   0 total
+Time:        6.903 s, estimated 7 s
+Ran all test suites matching src/features/products/ui/ProductCreateForm.test.tsx.
