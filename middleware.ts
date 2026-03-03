@@ -32,7 +32,7 @@ export async function middleware(request: NextRequest) {
 
     // 경로에 따른 리다이렉션 방어 로직
     const isLoginPage = request.nextUrl.pathname.startsWith('/login')
-    const isDashboardPage = request.nextUrl.pathname.startsWith('/dashboard') || request.nextUrl.pathname === '/'
+    const isDashboardPage = !isLoginPage // 로그인 페이지 외의 모든 페이지를 보호가 필요한 대시보드 페이지로 간주
 
     if (!user && isDashboardPage) {
         // 비로그인 사용자가 대시보드 쪽 접근 시 로그인 페이지로
@@ -41,7 +41,7 @@ export async function middleware(request: NextRequest) {
 
     if (user && isLoginPage) {
         // 로그인 사용자가 로그인 페이지 접근 시 대시보드 메인으로
-        return NextResponse.redirect(new URL('/dashboard', request.url))
+        return NextResponse.redirect(new URL('/products', request.url))
     }
 
     return supabaseResponse
