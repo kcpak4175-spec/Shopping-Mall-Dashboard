@@ -68,6 +68,7 @@ export default function ProductEditPage() {
                     price: product.price,
                     stock: product.stock,
                 }}
+                initialImageUrls={product.imageUrls}
             />
         </div>
     );

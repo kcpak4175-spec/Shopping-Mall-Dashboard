@@ -21,6 +21,7 @@ interface ProductCreateFormProps {
         price: number;
         stock: number;
     };
+    initialImageUrls?: string[];
 }
 
 function getErrorMessages(errors: unknown[]): string[] {
@@ -33,9 +34,9 @@ function getErrorMessages(errors: unknown[]): string[] {
         .filter(Boolean);
 }
 
-export default function ProductCreateForm({ onSubmit, onUploadImage, onGenerateDesc, onRecommendTags, initialValues }: ProductCreateFormProps) {
+export default function ProductCreateForm({ onSubmit, onUploadImage, onGenerateDesc, onRecommendTags, initialValues, initialImageUrls }: ProductCreateFormProps) {
     const router = useRouter();
-    const [images, setImages] = React.useState<string[]>([]);
+    const [images, setImages] = React.useState<string[]>(initialImageUrls || []);
     const [imageFiles, setImageFiles] = React.useState<File[]>([]);
     const [tags, setTags] = React.useState<string[]>([]);
 
@@ -60,15 +61,19 @@ export default function ProductCreateForm({ onSubmit, onUploadImage, onGenerateD
                 }
             }
 
-            // 2. 업로드된 URL로 상품 생성
+            // 3. 기존 유지 이미지 + 새로 업로드된 이미지 결합
+            const existingUrls = images.filter(url => !url.startsWith('blob:'));
+            const finalImageUrls = [...existingUrls, ...uploadedUrls];
+
+            // 4. 업로드된 URL로 상품 생성/수정
             const success = await onSubmit({
                 name: value.name,
                 category: value.category,
                 price: value.price,
                 stock: value.stock,
                 description: `${value.description}${tags.length > 0 ? `\n\n태그: ${tags.join(', ')}` : ''}`,
-                imageUrl: uploadedUrls[0] || '',
-                imageUrls: uploadedUrls,
+                imageUrl: finalImageUrls[0] || '',
+                imageUrls: finalImageUrls,
             });
 
             if (success) {
