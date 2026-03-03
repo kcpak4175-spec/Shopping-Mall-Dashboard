@@ -11,8 +11,8 @@ export const productFormSchema = z.object({
     description: z
         .string()
         .max(1000, '상품 설명은 1000자 이하로 입력해주세요.'),
-    category: z.enum(['전체', '전자제품', '의류', '식품'], {
-        errorMap: () => ({ message: '올바른 카테고리를 선택해주세요.' }),
+    category: z.enum(['전체', '전자제품', '의류', '식품'] as const, {
+        message: '올바른 카테고리를 선택해주세요.',
     }),
     price: z
         .number()
